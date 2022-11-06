@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-weight: 500;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.top-fold {
+  padding: 3% 15% 0 15%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 400; */
+}
+
+/* Hero */
+
+#hero {
+}
+
+.big-header {
+  /* hero + cta */
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.iphone-mockup {
+  position: relative;
+  width: 18vw;
+  transform: rotate(25deg);
+  padding: 0;
+  left: 10%;
+  margin-top: 7%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 2;
+  /* bottom: 20vh; */
+  padding: 3% 10% 5% 10%;
+  margin-top: -6%;
+}
+
+.feature-box {
+  padding: 5% 4%;
+}
+
+.feature-icon {
+  font-size: 500%;
+  margin-bottom: 1vh;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.feature-text {
+  max-width: 70%;
+  margin: auto;
+  color: gray;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-wrapper {
+  padding: 7% 15% 3% 15%;
+  min-height: 60vh;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding: 0 0 2% 0;
+}
+
+.press-image {
+  max-height: 4.5rem;
+  margin: 2% 0 2% 0;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 1% 7% 4% 7%;
+}
+
+.pricing-card {
+  /* margin: 0 1vw; */
+  padding: 0 5%;
+  min-height: 40vh;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.price-name {
+  font-weight: 700;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.pricing-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+/* —————————————————————————— CALL TO ACTION ————————————————————————————— */
+
+#cta {
+  padding: 5% 20% 5% 20%;
+}
+
+.button-wrapper {
+  margin: 5% auto 0 auto;
+}
+
+#footer {
+  padding: 3% 0 3% 0;
+}
+
+.social-icon {
+  margin: 0 1rem 1.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.social-icon:hover {
+  color: cornflowerblue;
+}
+
+.big-header.cta {
+  max-width: 75%;
+}
+
+@media (max-width: 991px) {
+  .testimonial-header {
+    font-size: 2rem;
+  }
+  .iphone-mockup {
+    transform: rotate(0deg);
+    padding-bottom: 20%;
+    left: 0;
+    width: 250px;
+    margin: 7% auto 0 auto;
+    z-index: 1;
+  }
+
+  #cta {
+    padding: 5% 5% 5% 5%;
+  }
+
+  .big-header.cta {
+    max-width: 90%;
+  }
+}
