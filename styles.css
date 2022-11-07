@@ -58,6 +58,10 @@ p {
   /* font-weight: 400; */
 }
 
+.nav-link {
+  font-size: 1.25rem;
+}
+
 /* Landing */
 
 .big-header {
@@ -113,7 +117,7 @@ p {
   color: gray;
 }
 
-/* Testimonials */
+/* Testimonials Carousel */
 
 #testimonials {
   background-color: #ef8172;
@@ -144,7 +148,7 @@ p {
 }
 
 .carousel-item {
-  min-height: 500px;
+  min-height: 460px;
 }
 
 .carousel-wrapper {
@@ -170,7 +174,7 @@ p {
 
 #press {
   background-color: #ef8172;
-  padding: 0 0 2% 0;
+  padding-bottom: 1%;
 }
 
 .press-image {
@@ -191,7 +195,8 @@ p {
 
 .pricing__cards {
   display: flex;
-  align-items: space-between;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
@@ -202,7 +207,7 @@ p {
   padding: 0 5%;
   min-height: 40vh;
   max-width: 75%;
-  margin: 0 auto;
+  margin: 24px 16px;
 }
 
 .card-header {
