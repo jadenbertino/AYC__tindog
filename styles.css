@@ -1,6 +1,5 @@
 /*
 TODO:
-- add another carousel slide
 - mobile optimization
 - one of the proof logos not working on github
 - continers for max width
@@ -121,10 +120,20 @@ p {
   font-weight: 700;
 }
 
+.testimonial__image--wrapper {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+  height: 100%;
 }
 
 .carousel-wrapper {
