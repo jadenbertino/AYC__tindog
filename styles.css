@@ -150,7 +150,20 @@ p {
 .carousel-wrapper {
   /* min-height: 500px; */
   /* margin:  0; */
-  padding: 7% 15%;
+  padding: 5% 15%;
+}
+
+.carousel-control-container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: -464px;
 }
 
 /* Press */
