@@ -307,9 +307,12 @@ p {
 }
 
 @media (max-width: 991px) {
-  .testimonial-header {
-    font-size: 2rem;
+
+  .big-header {
+    max-width: 720px;
+    margin: 0 auto;
   }
+
   .iphone-mockup {
     transform: rotate(0deg);
     padding-bottom: 20%;
@@ -319,11 +322,44 @@ p {
     z-index: 1;
   }
 
+  .testimonial-header {
+    font-size: 2rem;
+  }
+
+  #press {
+    padding-bottom: 1rem;
+  }
+
   #cta {
     padding: 5% 5% 5% 5%;
   }
 
   .big-header.cta {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .big-header,
+  .pricing-header {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-header {
+    font-size: 1.5rem;
+  }
+
+  .pricing-card {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .price-text {
+    font-size: 2.5rem;
+  }
+
+  #cta .big-header {
+    font-size: 2rem;
   }
 }
