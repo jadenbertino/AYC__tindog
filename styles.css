@@ -4,7 +4,9 @@ TODO:
 - add another carousel
 - one of the proof logos not working on github
 - hover transitions
+- center everything
 */
+
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -44,6 +46,7 @@ p {
 .navbar__logo--text {
   font-weight: 500;
   font-family: "Ubuntu", sans-serif;
+  user-select: none;
 }
 
 .navbar {
@@ -138,8 +141,13 @@ p {
 }
 
 .press-image {
-  max-height: 4.5rem;
-  margin: 2% 0 2% 0;
+  max-height: 2rem;
+  margin: 2% 4%;
+  filter: brightness(0) invert(1);
+}
+
+.press-image--bi {
+  max-height: 2.5rem;
 }
 
 /* Pricing */
@@ -189,7 +197,7 @@ p {
 /* —————————————————————————— FOOTER ————————————————————————————— */
 
 .footer__container {
-  padding: 3% 0;
+  padding: 5% 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,7 +242,7 @@ p {
 }
 
 .footer__copyright {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0;
 }
 
 .big-header.cta {
