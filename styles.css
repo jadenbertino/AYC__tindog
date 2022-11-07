@@ -164,6 +164,14 @@ p {
   padding: 1% 7% 4% 7%;
 }
 
+.pricing__cards {
+  display: flex;
+  align-items: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .pricing-card {
   /* margin: 0 1vw; */
   padding: 0 5%;
@@ -180,10 +188,18 @@ p {
   font-weight: 700;
 }
 
+.price__wrapper {
+  margin-bottom: 1.5rem;
+}
+
 .price-text {
   font-size: 3rem;
-  line-height: 1.5;
   font-weight: 700;
+  margin-bottom: 0;
+}
+
+.price__subtext {
+  font-style: italic;
 }
 
 .pricing-header {
@@ -191,6 +207,8 @@ p {
   line-height: 1.5;
   font-weight: 700;
 }
+
+
 
 /* —————————————————————————— CALL TO ACTION ————————————————————————————— */
 
