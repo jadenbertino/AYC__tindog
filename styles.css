@@ -3,8 +3,7 @@ TODO:
 - add another carousel slide
 - mobile optimization
 - one of the proof logos not working on github
-- hover transitions
-- center everything
+- continers for max width
 */
 
 body {
@@ -234,6 +233,7 @@ p {
 .social-icon {
   margin: 1rem;
   font-size: 1.5rem;
+  transition: color 250ms ease;
 }
 
 .social-icon:hover {
