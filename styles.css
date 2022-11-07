@@ -1,7 +1,7 @@
 /*
 TODO:
 - mobile optimization
-- containers for max width
+- phone bouncing animation
 */
 
 body {
@@ -202,6 +202,10 @@ p {
   margin: 5% auto 0 auto;
 }
 
+.big-header.cta {
+  max-width: 75%;
+}
+
 /* —————————————————————————— FOOTER ————————————————————————————— */
 
 .footer__container {
@@ -252,10 +256,6 @@ p {
 
 .footer__copyright {
   margin: 0.5rem 0 0;
-}
-
-.big-header.cta {
-  max-width: 75%;
 }
 
 @media (max-width: 991px) {
