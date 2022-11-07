@@ -1,3 +1,10 @@
+/*
+TODO:
+- mobile optimization
+- add another carousel
+- one of the proof logos not working on github
+- hover transitions
+*/
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -149,6 +156,10 @@ p {
   margin: 0 auto;
 }
 
+.card-header {
+  background: transparent;
+}
+
 .price-name {
   font-weight: 700;
 }
@@ -164,6 +175,7 @@ p {
   line-height: 1.5;
   font-weight: 700;
 }
+
 /* —————————————————————————— CALL TO ACTION ————————————————————————————— */
 
 #cta {
@@ -174,17 +186,55 @@ p {
   margin: 5% auto 0 auto;
 }
 
-#footer {
-  padding: 3% 0 3% 0;
+/* —————————————————————————— FOOTER ————————————————————————————— */
+
+.footer__container {
+  padding: 3% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo--wrapper {
+  position: relative;
+}
+
+.footer__logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.footer__logo--pink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+
+.footer__logo--wrapper:hover .footer__logo--black {
+  opacity: 0;
+}
+
+.footer__logo--wrapper:hover .footer__logo--pink {
+  opacity: 1;
 }
 
 .social-icon {
-  margin: 0 1rem 1.5rem 1rem;
+  margin: 1rem;
   font-size: 1.5rem;
 }
 
 .social-icon:hover {
-  color: cornflowerblue;
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+.footer__copyright {
+  margin: 0.5rem 0;
 }
 
 .big-header.cta {
