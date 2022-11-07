@@ -363,3 +363,14 @@ p {
     font-size: 2rem;
   }
 }
+
+@media(max-width: 480px) {
+  .download__btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download__btn {
+    margin-right: 0 !important;
+  }
+}
