@@ -24,7 +24,17 @@ p {
 
 /* Navbar */
 
-.navbar-brand {
+.nav__logo--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo--img {
+  width: 60px;
+  margin-right: 24px;
+}
+
+.navbar__logo--text {
   font-weight: 500;
   font-family: "Ubuntu", sans-serif;
 }

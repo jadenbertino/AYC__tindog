@@ -24,7 +24,7 @@
     <script src="https://kit.fontawesome.com/ba6fc831d0.js" crossorigin="anonymous"></script>
     <!-- My Stylesheet -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="icon" type="image/png" href="./images/logo-color.png">
   </head>
 
   <body>
@@ -35,8 +35,13 @@
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark fs-4">
           <div class="container-fluid px-0">
-            <!-- Brand + Mobile Hamburger-->
-            <a class="navbar-brand fs-1">tindog</a>
+            <!-- Nav Logo -->
+            <div class="nav__logo--wrapper">
+              <img src="./images/logo-white.png" alt="" class="nav__logo--img">
+              <span class="navbar__logo--text fs-1">tindog</span>
+            </div>
+
+            <!-- Nav Mobile Hamburger-->
             <button
               class="navbar-toggler"
               type="button"
@@ -48,6 +53,8 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Nav Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto fs-4">
                 <!-- ms-auto sets start (left) margin to auto, aka pushes it all the way right -->
