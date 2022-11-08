@@ -29,86 +29,75 @@
 
   <body>
     <!-- Top Fold -->
-    <section class="colored-section" id="landing">
-      <div class="container top-fold">
+    <section id="landing" class="colored-section" >
 
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark fs-4">
-          <div class="container-fluid px-0">
-            <!-- Nav Logo -->
-            <div class="nav__logo--wrapper">
-              <img src="./images/logo-white.png" alt="" class="nav__logo--img">
-              <span class="navbar__logo--text fs-1">tindog</span>
-            </div>
-
-            <!-- Nav Mobile Hamburger-->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Nav Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto fs-4">
-                <!-- ms-auto sets start (left) margin to auto, aka pushes it all the way right -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact</a>
-                </li>
-                <li class="nav-item px-5">
-                  <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#cta">Download</a>
-                </li>
-              </ul>
-            </div>
+      <nav class="container navbar navbar-expand-lg navbar-dark fs-4">
+        <div class="container-fluid px-0">
+          <!-- Nav Logo -->
+          <div class="nav__logo--wrapper">
+            <img src="./images/logo-white.png" alt="" class="nav__logo--img">
+            <span class="navbar__logo--text fs-1">tindog</span>
           </div>
-        </nav>
 
-        <div class="row row-cols-1 row-cols-lg-2">
+          <!-- Nav Mobile Hamburger-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <div class="col mt-5 p-0 ms-2">
+          <!-- Nav Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto fs-4">
+              <!-- ms-auto sets start (left) margin to auto, aka pushes it all the way right -->
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class="container heading__container">
 
-            <!-- Title -->
-            <div class="pe-0 pe-md-5">
-              <h1 class="big-header text-lg-start text-center mt-5 mb-1 pe-xl-4">
-                Meet new and interesting dogs nearby.
-              </h1>
-            </div>
-
-            <!-- Download -->
-            <div class="download__btns d-flex justify-content-center justify-content-lg-start">
-              <button type="button" class="download__btn btn px-4 me-3 btn-lg btn-dark mt-3">
-                  <i class="fa-brands fa-apple pe-1"></i>
-                  Download
-              </button>
-              <button type="button" class="download__btn btn px-4 btn-lg btn-outline-light mt-3">
-                <i class="fa-brands fa-windows"></i>
+        <div class="heading__left">
+          <h1 class="big-header text-lg-start text-center mb-1 pe-xl-4">
+            Meet new and interesting dogs nearby.
+          </h1>
+          <div class="download__btns d-flex justify-content-center justify-content-lg-start">
+            <button type="button" class="download__btn btn px-4 me-3 btn-lg btn-dark mt-3">
+                <i class="fa-brands fa-apple pe-1"></i>
                 Download
-              </button>
-            </div>
+            </button>
+            <button type="button" class="download__btn btn px-4 btn-lg btn-outline-light mt-3">
+              <i class="fa-brands fa-windows"></i>
+              Download
+            </button>
           </div>
-
-          <!-- Image -->
-          <div class="iphone-mockup">
-            <img
-            style="width:100%;"
-            src="images/iphone6.png"
-            alt="iphone-mockup"
-            />
-          </div>
-
         </div>
-      </div>
 
+        <!-- Image -->
+        <div class="heading__right">
+          <img
+          style="width:100%;"
+          src="images/iphone6.png"
+          alt="iphone-mockup"
+          />
         </div>
+
+      </header>
+
 
     </section>
 

@@ -26,16 +26,16 @@ p {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /* Navbar */
 
-.top-fold {
-  overflow: hidden;
-  position: relative;
-  padding: 2% 5%;
-  min-height: 660px;
+.navbar {
+  padding-top: 2.5rem;
 }
+
 
 .nav__logo--wrapper {
   display: flex;
@@ -64,6 +64,23 @@ p {
 
 /* Landing */
 
+.heading__container {
+  overflow: hidden;
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  /* 500px; */
+}
+
+.heading__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
 .big-header {
   /* hero + cta */
   font-weight: 800;
@@ -72,11 +89,10 @@ p {
   padding: 0;
 }
 
-.iphone-mockup {
+.heading__right {
   position: relative;
-  width: 18vw;
+  width: 300px;
   transform: rotate(25deg);
-  padding: 0;
   left: 10%;
   margin-top: 7%;
 }
@@ -88,7 +104,7 @@ p {
   z-index: 2;
   /* bottom: 20vh; */
   padding: 3% 10% 5% 10%;
-  margin-top: -6%;
+  /* margin-top: -6%; */
 }
 
 .feature-box {
@@ -313,7 +329,7 @@ p {
     margin: 0 auto;
   }
 
-  .iphone-mockup {
+  .heading__right {
     transform: rotate(0deg);
     padding-bottom: 20%;
     left: 0;
