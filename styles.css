@@ -26,8 +26,16 @@ p {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.section-title {
+  /* hero + cta */
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0;
 }
 
 /* Navbar */
@@ -81,17 +89,13 @@ p {
   margin-bottom: 10%;
 }
 
-.big-header {
-  /* hero + cta */
-  font-weight: 800;
-  font-size: 3rem;
-  line-height: 1.5;
-  padding: 0;
+.heading__title {
+  text-align: start;
 }
 
 .heading__right {
   position: relative;
-  width: 300px;
+  width: 260px;
   transform: rotate(25deg);
   left: 10%;
   margin-top: 7%;
@@ -270,7 +274,7 @@ p {
   margin: 5% auto 0 auto;
 }
 
-.big-header.cta {
+.section-title.cta {
   max-width: 75%;
 }
 
@@ -327,6 +331,10 @@ p {
 }
 
 @media (max-width: 991px) {
+  .section-title {
+    text-align: center;
+  }
+
   .navbar {
     margin-bottom: 4rem;
   }
@@ -338,18 +346,20 @@ p {
   }
 
   .heading__left {
+    max-width: 720px;
+    width: 100%;
     margin-bottom: 0;
   }
 
   .heading__right {
     transform: rotate(10deg);
-    width: 250px;
     left: 0;
     margin: 5rem 0;
   }
 
-  .big-header {
-    max-width: 720px;
+  .section-title {
+    width: 720px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -377,16 +387,20 @@ p {
     padding: 5% 5% 5% 5%;
   }
 
-  .big-header.cta {
+  .section-title.cta {
     max-width: 90%;
   }
 }
 
 @media (max-width: 768px) {
 
-  .big-header,
+  .section-title,
   .pricing-header {
     font-size: 2.5rem;
+  }
+
+  .heading__right {
+    width: 224px;
   }
 
   .testimonial-header {
@@ -402,12 +416,25 @@ p {
     font-size: 2.5rem;
   }
 
-  #cta .big-header {
+  #cta .section-title {
     font-size: 2rem;
   }
 }
 
 @media(max-width: 480px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nav__logo--img {
+    margin-right: 12px;
+  }
+
+  .heading__right {
+    width: 200px;
+    margin: 5vh 0;
+  }
   .download__btns {
     flex-direction: column;
     align-items: center;
@@ -415,5 +442,9 @@ p {
 
   .download__btn {
     margin-right: 0 !important;
+  }
+
+  .section-title {
+    font-size: 2rem;
   }
 }
