@@ -38,6 +38,10 @@ p {
   padding: 0;
 }
 
+.section-description {
+  margin-top: 1rem;
+}
+
 /* Navbar */
 
 .navbar {
@@ -173,11 +177,6 @@ p {
 
 .carousel-item {
   min-height: 460px;
-}
-
-.carousel-wrapper {
-  /* min-height: 500px; */
-  /* margin:  0; */
   padding: 5% 15%;
 }
 
@@ -203,7 +202,7 @@ p {
 
 .press-image {
   max-height: 2rem;
-  margin: 2% 4%;
+  margin: 3vh 4% 0;
   filter: brightness(0) invert(1);
 }
 
@@ -256,11 +255,11 @@ p {
   font-style: italic;
 }
 
-.pricing-header {
+/* .pricing-header {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
-}
+} */
 
 
 
@@ -403,8 +402,16 @@ p {
     width: 224px;
   }
 
+  .carousel-item {
+    padding: 5vh 15%;
+  }
+
   .testimonial-header {
     font-size: 1.5rem;
+  }
+
+  #press {
+    padding-bottom: 4.5vh;
   }
 
   .pricing-card {
@@ -435,6 +442,7 @@ p {
     width: 200px;
     margin: 5vh 0;
   }
+
   .download__btns {
     flex-direction: column;
     align-items: center;
@@ -446,5 +454,21 @@ p {
 
   .section-title {
     font-size: 2rem;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-icon {
+    font-size: 66px;
+  }
+
+
+}
+
+@media(max-width: 360px) {
+  .testimonial-header {
+    font-size: 1.25rem;
   }
 }
