@@ -93,7 +93,7 @@ p {
   margin-bottom: 10%;
 }
 
-.heading__title {
+.heading-title {
   text-align: start;
 }
 
@@ -273,7 +273,7 @@ p {
   margin: 5% auto 0 auto;
 }
 
-.section-title.cta {
+.cta-title {
   max-width: 75%;
 }
 
@@ -386,7 +386,7 @@ p {
     padding: 5% 5% 5% 5%;
   }
 
-  .section-title.cta {
+  .cta-title {
     max-width: 90%;
   }
 }
@@ -423,7 +423,7 @@ p {
     font-size: 2.5rem;
   }
 
-  #cta .section-title {
+  .cta-title {
     font-size: 2rem;
   }
 }
@@ -436,6 +436,7 @@ p {
 
   .nav__logo--img {
     margin-right: 12px;
+    width: 48px;
   }
 
   .heading__right {
@@ -464,10 +465,38 @@ p {
     font-size: 66px;
   }
 
+  .press-image {
+    max-height: 1.5rem;
+  }
+
+  .press-image--bi {
+    max-height: 2rem;
+  }
+
+  #cta {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .cta-title {
+    font-size: 1.75rem;
+  }
+
+  .footer__container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .footer__logo {
+    width: 80px;
+  }
 
 }
 
 @media(max-width: 360px) {
+  .heading-title {
+    font-size: 1.75rem;
+  }
   .testimonial-header {
     font-size: 1.25rem;
   }
